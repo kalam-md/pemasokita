@@ -1,9 +1,30 @@
+import { download, googleplay } from "../assets";
+import styles, { layout } from "../styles";
+
 export default function Download() {
   return (
-    <>
-      <div className="bg-green-200 flex justify-center w-[80%] mx-auto mt-10 p-10 rounded-md">
-        <p className="text-3xl font-medium text-green-600">Download</p>
+    <section className={`${layout.section} justify-center w-[80%] mx-auto`}>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading1}>
+          Ayo Download...
+        </h2>
+        <p className={`${styles.paragraph} max-w-[447px]`}>
+          Download our app from google play or app store and you don’t have to be worry about your food anymore.
+        </p>
+
+        <button
+          type="button"
+          className={`${styles.button2} mt-4`}
+        >
+            <img src={googleplay} alt="" />
+        </button>
       </div>
-    </>
+
+
+      <div className={layout.sectionImg2}>
+        <img src={download} alt="explore" className="w-[100%] h-[100%]" />
+      </div>
+
+    </section>
   )
 }

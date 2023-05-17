@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        merienda: ["Merienda", "sans-serif"]
+      },
+      colors: {
+        'green-leaf': '#396C03',
+        'wheat': '#FFF9F2',
+        'lime': '#F0F4EC',
+        'dark-green': '#224300',
+      },
+    },
   },
   plugins: [],
 }
