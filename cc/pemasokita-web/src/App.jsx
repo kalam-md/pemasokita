@@ -4,7 +4,9 @@ export default function App() {
   return (
     <>
       <Navbar/>
+      <div className="bg-lime py-20">
       <Header/>
+      </div>
       <div className="bg-wheat">  
       <Overview/>
       </div>

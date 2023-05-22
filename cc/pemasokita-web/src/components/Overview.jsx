@@ -7,10 +7,11 @@ export default function Overview() {
     <section className={`${layout.section} justify-center w-[80%] mx-auto`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Cari tahu apakah <br className="sm:block hidden" /> kualitas produk baik
+          {/* Cari tahu apakah <br className="sm:block hidden" /> kualitas produk baik */}
+          Product quality detection
         </h2>
         <p className={`${styles.paragraph} max-w-[567px] mt-4`}>
-          Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis maecenas. At egestas auctor porta mattis.
+        We will detect every product that is in our application and provide output in the form of results and suggestions for the detected product
         </p>
 
         <button
@@ -25,7 +26,7 @@ export default function Overview() {
 
 
       <div className={layout.sectionImg}>
-        <img src={group} alt="explore" className="w-full h-full" />
+        <img src={group} alt="explore" className="w-full h-full md:block hidden" />
       </div>
 
     </section>
