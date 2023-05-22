@@ -12,6 +12,7 @@ export default {
       },
       colors: {
         'green-leaf': '#396C03',
+        'orange-solid': '#FF8B00',
         'wheat': '#FFF9F2',
         'lime': '#F0F4EC',
         'dark-green': '#224300',

@@ -6,15 +6,15 @@ export default function Download() {
     <section className={`${layout.section} justify-center w-[80%] mx-auto`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading1}>
-          Ayo Download...
+          Download Now
         </h2>
         <p className={`${styles.paragraph} max-w-[447px]`}>
-          Download our app from google play or app store and you don’t have to be worry about your food anymore.
+        Download our app from google play and you don’t have to be worry about your product anymore. 
         </p>
 
         <button
           type="button"
-          className={`${styles.button2} mt-4`}
+          className={`my-4`}
         >
             <img src={googleplay} alt="" />
         </button>
