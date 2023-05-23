@@ -8,14 +8,14 @@ export default function ClickToAction() {
       <div className={layout.sectionImg3}>
         <img src={cta} alt="explore" className="w-full h-full" />
 
-        <div className="absolute flex flex-wrap items-center justify-center bottom-[5.5rem]">
+        <div className="absolute flex flex-wrap items-center justify-center bottom-0 sm:bottom-[5.5rem]">
           <h3 className={`${styles.heading3} text-center`}>Want to be a part of Pemasokita?</h3>
 
           <button
             type="button"
-            className={`${styles.button2} mt-4`}
+            className={`${styles.button2} mt-0 mb-8 sm:mb-0 sm:mt-4`}
           >
-            <div className="mx-3 my-1">
+            <div className="text-xs sm:text-[22px] my-1">
               Explore <EastIcon />
             </div>
           </button>

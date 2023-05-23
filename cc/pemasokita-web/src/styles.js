@@ -3,7 +3,7 @@ const styles = {
 
     heading1: "font-poppins font-bold xs:text-[48px] text-[40px] text-green-leaf xs:leading-[76.8px] leading-[66.8px] w-full",
     heading2: "font-merienda font-bold xs:text-[48px] text-[50px] text-green-leaf xs:leading-[76.8px] leading-[66.8px] w-full",
-    heading3: "font-poppins font-bold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading3: "font-poppins font-bold xs:text-[48px] text-[16px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     
     paragraph: "font-poppins text-[18px] leading-[30.8px]",
   
@@ -18,7 +18,8 @@ const styles = {
     marginY: "sm:my-16 my-6",
 
     button: "py-3 px-12 font-poppins font-medium text-[22px] text-white bg-green-leaf rounded-[225px]",
-    button2: "py-3 px-12 font-poppins font-medium text-[22px] text-white bg-orange-solid rounded-[225px]"
+    button2: "py-1 px-6 sm:py-3 sm:px-14 font-poppins font-medium text-[22px] text-white bg-orange-solid rounded-[225px]"
+    
   };
   
   export const layout = {
@@ -26,7 +27,7 @@ const styles = {
 
     sectionImg: `flex-1 ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
     sectionImg2: `${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-1 relative`,
-    sectionImg3: `flex-1 ${styles.flexCenter} mx-auto relative`,
+    sectionImg3: `${styles.flexCenter} md:ml-0 ml-0 md:mt-0 mt-0 relative`,
   
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
     sectionInfo2: `flex-2 ${styles.flexStart} flex-col`,

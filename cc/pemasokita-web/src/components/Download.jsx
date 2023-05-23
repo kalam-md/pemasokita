@@ -21,7 +21,7 @@ export default function Download() {
       </div>
 
 
-      <div className={layout.sectionImg2}>
+      <div className={`${layout.sectionImg2} hidden sm:block`}>
         <img src={download} alt="explore" className="w-[100%] h-[100%]" />
       </div>
 

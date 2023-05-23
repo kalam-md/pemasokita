@@ -7,5 +7,5 @@ import Download from "./Download"
 import Footer from "./Footer"
 
 export {
-  Navbar, Header, Overview, ClickToAction, FrequentlyAskedQuestion, Download, Footer
+  Navbar, Header, Overview, ClickToAction, FrequentlyAskedQuestion, Download, Footer,
 }
