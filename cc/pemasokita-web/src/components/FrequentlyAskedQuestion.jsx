@@ -21,13 +21,19 @@ export default function FrequentlyAskedQuestion() {
       content:
         'Yes, Tailwind CSS provides a configuration file where you can customize various aspects of the framework. You can generate a default configuration file using the following command: \n\nnpx tailwindcss init',
     },
+    {
+      id: 4,
+      title: 'Can I customize Tailwind CSS styles?',
+      content:
+        'Yes, Tailwind CSS provides a configuration file where you can customize various aspects of the framework. You can generate a default configuration file using the following command: \n\nnpx tailwindcss init',
+    },
   ];
 
   const Accordion = ({ id, title, content }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleAccordion = () => {
-      setIsOpen(!isOpen);
+      setIsOpen(!isOpen );
     };
 
     return (
@@ -37,7 +43,7 @@ export default function FrequentlyAskedQuestion() {
           onClick={toggleAccordion}
         >
           <span className="flex text-lg font-semibold text-black">{title}</span>
-          <KeyboardArrowDownIcon className={`text-gray-400`}/>
+          <KeyboardArrowDownIcon className={`text-gray-400`} />
         </button>
         {isOpen && (
           <div className="px-4 pb-5 sm:px-6 sm:pb-6">
@@ -53,10 +59,12 @@ export default function FrequentlyAskedQuestion() {
       <div className="mx-auto">
         <h1 className="font-poppins font-bold xs:text-[48px] text-[40px] text-gray-800 xs:leading-[76.8px] leading-[66.8px] w-full text-center">Frequently Asked Questions </h1>
       </div>
-      <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-        {faqs.map((faq) => (
-          <Accordion key={faq.id} {...faq} />
-        ))}
+      <div className="grid gap-4">
+        <div className="mx-auto mt-8 grid gap-4 w-full">
+          {faqs.map((faq) => (
+            <Accordion key={faq.id} {...faq} />
+          ))}
+        </div>
       </div>
     </section>
   )
