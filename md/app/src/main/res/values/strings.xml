@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PemasoKita</string>
+    <string name="version_app">Version 1.1.0</string>
+    <string name="welcome">Selamat datang!\nLogin di bawah untuk akses akun mu.</string>
+    <string name="email">Email</string>
+    <string name="masukkan_alamat_email">masukkan alamat email</string>
+    <string name="input_password">masukkan password</string>
+</resources>
