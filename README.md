@@ -24,3 +24,13 @@ Documentation from FastAPI App:
 
 To see and use the app u can go to this [Repository](https://github.com/suryanurjaman/pemasokita-machine-learning)
 
+
+
+# Mobile Development
+Creating the Mobile App interface for user and creating the backend to interact with database and models.
+Documentation :
+![image](https://github.com/kalam-md/pemasokita/assets/76623119/71497e26-63dd-4ce7-aab9-d216b03884a9)
+![image](https://github.com/kalam-md/pemasokita/assets/76623119/85a4c3e7-a80c-4bc1-8a53-f56ef7c926a1)
+
+for more info on the mobile development you can go this [Repository](https://github.com/KaptenDia/md.git)
+
